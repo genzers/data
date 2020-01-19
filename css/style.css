@@ -1061,10 +1061,9 @@ section {
 }
 
 .footer .foo-social a {
-  border-right: 1px solid #b1b4bb;
-  color: #3a414e;
+  color: #C7CAD1;
   display: inline-block;
-  font-size: 14px;
+  font-size: 20px;
   line-height: .8;
   padding: 0 10px;
 }
