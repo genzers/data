@@ -1,18 +1,3 @@
-/*
-    Theme Name: Spa
-    Theme URI: https://themeies.com
-    Author: Themeies
-    Author URI: https://themeies.com
-    Version: 1.0
-    Description: Spa is a Landing HTML5 Template.
-*/
-
-/*
-    Table of Context
-    -------------------------------
-    01.
-*/
-
 // Roboto Font
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 // Rufina Font
@@ -20,10 +5,6 @@
 
 @import 'reset';
 @import 'variables';
-
-/**
- *  Common CSS
- */
 
 //  Button styles
  .bg-lightred {
@@ -93,7 +74,7 @@
         max-width: 84px;
         margin: 0 auto 40px;
     }
-    
+
     .tagline {
         color: #888;
         display: block;
@@ -151,7 +132,7 @@
             right: 0;
             top: -30px;
         }
-    }    
+    }
 
     li {
         @include min-mq(768) {
@@ -246,13 +227,13 @@
             display: none;
         }
     }
-    
+
 }
 
 // About section
 .about {
     text-align: center;
-    
+
     [class|=flower] {
         position: absolute;
     }
@@ -329,7 +310,7 @@
 }
 
 
-// Blog 
+// Blog
 .blog {
     padding-bottom: 20px;
 }
@@ -374,13 +355,13 @@
     }
 }
 
-// Testimonial section 
+// Testimonial section
 .testimonial {
     .single-tst {
         position: relative;
         text-align: center;
         margin-bottom: 30px;
-        
+
         img {
             margin: 0 auto 45px;
             width: 59px;
@@ -419,7 +400,7 @@
 
     .owl-dots {
         text-align: center;
-        
+
         span {
             background-color: #ffc3c2;
             border-radius: 50%;
@@ -431,7 +412,7 @@
     }
 }
 
-// appointment section 
+// appointment section
 .appointment {
 
     & .v2 {
@@ -513,16 +494,16 @@
                 flex-wrap: wrap;
                 justify-content: space-between;
 
-                input, 
+                input,
                 .select-field {
                     width: 49%;
-                }            
+                }
             }
-        }        
-    }        
+        }
+    }
 }
 
-// Team section 
+// Team section
 .team {
     .single-memb {
         position: relative;
@@ -570,7 +551,7 @@
             opacity: 0;
             visibility: hidden;
 
-            
+
             a {
                 border: 1px solid #30383b;
                 border-radius: 50%;
@@ -604,7 +585,7 @@
     }
 }
 
-// Contact section 
+// Contact section
 .contact {
     address {
         color: #888;
@@ -641,7 +622,7 @@
 
     .contact-form {
         width: 100%;
-        
+
         @include mq(767) {
             margin-top: 40px;
         }
@@ -660,7 +641,7 @@
     }
 }
 
-// Map 
+// Map
 .map {
     @include mq(767) {
         padding-top: 0;
@@ -736,13 +717,13 @@
                 color: #1e2528;
                 font-size: 16px;
                 font-weight: 700;
-                margin-bottom: 8px;	
+                margin-bottom: 8px;
             }
 
             p {
                 font-size: 13px;
                 line-height: 24px;
-                margin-bottom: 10px;	
+                margin-bottom: 10px;
             }
 
             a, span {
@@ -770,7 +751,7 @@
                     color: #1e2528;
                     font-size: 13px;
                     margin-right: 3px;
-                    vertical-align: middle;	
+                    vertical-align: middle;
                 }
             }
 
@@ -807,7 +788,7 @@
         height: 80px;
         overflow: hidden;
         width: 80px;
-        
+
         @include mq(479) {
             height: 65px;
             width: 65px;
@@ -815,7 +796,7 @@
     }
 }
 
-// Comment form 
+// Comment form
 .comment-form {
     form {
         width: 100%;
@@ -840,7 +821,7 @@
         background: transparent;
         border-radius: 3px;
         border: 1px solid #e3e6ea;
-        box-shadow: none;	
+        box-shadow: none;
         padding: 7px 20px;
         width: 100%;
     }
@@ -851,7 +832,7 @@
 
     button {
         background-color: $primary-clr;
-        text-transform: uppercase;	
+        text-transform: uppercase;
         padding: 15px 30px;
     }
 }
@@ -880,7 +861,7 @@
             font-size: 14px;
             line-height: .8;
             padding: 0 10px;
-            
+
             &:hover {
                 color: $primary-clr;
             }
