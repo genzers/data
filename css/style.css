@@ -46,6 +46,7 @@ body {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  opacity: 0.8;
   display: none;
   position: absolute;
   background-color: #5B5B5B;
