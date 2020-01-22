@@ -50,7 +50,9 @@ body {
 /* logo url block */
 .logo {
   display: block;
-  max-width: 150px;
+  max-width: 130px;
+  height: auto;
+  margin: 0px 15px;
 }
 /* logo url block ended */
 
